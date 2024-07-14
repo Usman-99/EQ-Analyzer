@@ -1,6 +1,6 @@
 body{height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.964),rgba(227, 225, 225, 0.965)),url("./Images/back.png");
+  background-image: linear-gradient(rgba(228, 223, 223, 0.964),rgba(227, 225, 225, 0.965)),url("./Images/back.png");
   background-position: center;
   background-size: 100vh;
   position: relative;
@@ -91,8 +91,4 @@ img{
   text-decoration: none;
   display: inline-block;
   width: 100%; 
-}
-.bttn{
-  display: inline-block;
-  width: 100%;
 }

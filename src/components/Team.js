@@ -1,14 +1,14 @@
 import React from "react";
-import team from "../Images/pic.jpeg";
+import team from "../Images/team.jpg";
 import data from "./Teamdata";
 export default function Team() {
   return (
     <div className="w3-container mt-5 mb-5" id="team">
       <h3 className="mb-5 w3-center w3-xlarge">
-        <b>THE TEAM</b>
+        <b>Group Members</b>
       </h3>
       <p className="w3-center w3-xlarge">
-        <b>Persons who run this company</b>
+        <b>This Project is Made by:</b>
       </p>
       {data.length > 0 && (
         <div>

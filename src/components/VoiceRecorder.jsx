@@ -2,6 +2,8 @@ import { useState } from "react";
 import { AudioRecorder } from "react-audio-voice-recorder";
 import AudioRecorderPolyfill from "audio-recorder-polyfill";
 import image from "../Images/back.png";
+import web from "../Images/Capture.PNG";
+import { Link } from "react-router-dom";
 // Adding MP3 support
 AudioRecorderPolyfill.mimeType = "audio/mpeg";
 window.MediaRecorder = AudioRecorderPolyfill;
@@ -42,13 +44,55 @@ const VoiceRecorder = () => {
   };
   return (
     <>
-      <div
+      <section id="web">
+        <div className="webimg">
+          <p style={{ textAlign: "justify" }}>
+            <Link to="/VoiceRecorder">
+              <img
+                className="img-fluid"
+                title="Join And Avail Discount on your first purchase!!"
+                src={web}
+                alt="Join Our fitness hub now!!"
+              />
+            </Link>
+          </p>
+        </div>
+        <div className="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+          <div className="w3-quarter">
+            <span className="w3-xxlarge">14+</span>
+            <br />
+            Partners
+          </div>
+          <div className="w3-quarter">
+            <span className="w3-xxlarge">55+</span>
+            <br />
+            Store Products
+          </div>
+          <div className="w3-quarter">
+            <span className="w3-xxlarge">89+</span>
+            <br />
+            Happy Clients
+          </div>
+          <div className="w3-quarter">
+            <span className="w3-xxlarge">150+</span>
+            <br />
+            Registered Customers
+          </div>
+        </div>
+      </section>
+
+      <br />
+      <section
+        id="predict"
         className="mt-5 w3-container w3-margin"
         style={{
           backgroundImage: image,
         }}
       >
-        <div className="w3-center">
+        <br />
+        <br />
+        <br />
+        <div className="w3-center mt-2">
           <h3 className="mb-4 w3-center w3-xlarge">Predict Confidence Level</h3>
           <p className="w3-center w3-xlarge align-items-center mb-5 center-recorder">
             Start Recording
@@ -88,7 +132,7 @@ const VoiceRecorder = () => {
             </h2>
             <div className="w3-center my-4">
               <input
-                className="bttn btn btn-lg btn-warning"
+                className="btn btn-lg btn-warning w3-center"
                 type="file"
                 accept="audio/*"
                 onChange={handleAudioUpload}
@@ -109,7 +153,7 @@ const VoiceRecorder = () => {
             )}
           </div>
         </div>
-      </div>
+      </section>
       <hr />
     </>
   );

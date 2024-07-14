@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { SiGmail } from "react-icons/si";
+import { SiFacebook } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 export default function Footer() {
@@ -17,24 +17,24 @@ export default function Footer() {
       <div className="w3-xlarge w3-section">
         <ul className="flex gap-4" style={{ display: "-webkit-inline-flex" }}>
           <li>
-            <a href="mailto:usmanyousuf1137@gmail.com">
-              <SiGmail size={25} className="" />
+            <a>
+              <SiFacebook size={25} className="" />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/muhammadusmanyousuf/">
+            <a>
               <FaLinkedin size={25} />
             </a>
           </li>
           <li>
-            <a href="https://github.com/Usman-99?tab=repositories">
+            <a>
               <FaGithub size={25} />
             </a>
           </li>
         </ul>
       </div>
       <p className="w3-large text-info">
-        This website is made by Muhammad Usman Yousuf
+        <b>INTERVIEW EQ ANALYZER</b>
         <b className="px-3">&copy;</b>
       </p>
       <br />
@@ -42,11 +42,11 @@ export default function Footer() {
         className="btn btn-light border-info  btn-small  w3-margin-bottom"
         style={{ border: "4px solid" }}
         onClick={() => {
-          navigate("/Products");
+          navigate("/VoiceRecorder");
           window.scrollTo(0, 0);
         }}
       >
-        <b>Buy now</b>
+        <b>Predict now</b>
       </button>
     </footer>
   );

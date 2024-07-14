@@ -10,8 +10,6 @@ export default function Navbar() {
     { name: "HOME", tag: "/", icon: "home" },
     { name: "ABOUT", tag: "/About", icon: "globe" },
     { name: "TEAM", tag: "/Team", icon: "children" },
-    { name: "CONTACT", tag: "/Contact", icon: "envelope" },
-    { name: "PREDICT", tag: "/VoiceRecorder", icon: "search" },
   ];
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -69,10 +67,10 @@ export default function Navbar() {
               ))}
 
               <HashLink
-                to="/#review"
+                to="/#predict"
                 className="w3-bar-item w3-button w3-hover-red"
               >
-                <i className="fa fa-comment"></i> REVIEWS
+                <i className="fa fa-search"></i> PREDICT
               </HashLink>
             </div>
 
@@ -97,9 +95,9 @@ export default function Navbar() {
                   onClick={() => {
                     toggleMenu();
                   }}
-                  to={"/#review"}
+                  to={"/#predict"}
                 >
-                  <i className="fa fa-comment"></i> REVIEWS
+                  <i className="fa fa-search"></i> PREDICT
                 </HashLink>
               </div>
             )}

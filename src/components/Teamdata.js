@@ -1,25 +1,25 @@
 const data = [
   {
     name: "Usman Yousuf",
-    position: "CEO & Founder",
+    position: "CS-20099",
     para: "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.",
     number: "03042586499",
   },
   {
-    name: "Lorem Ipsum",
-    position: "President",
+    name: "Yasoob Raza",
+    position: "CS-20109",
     para: "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.",
     number: "0334xxxxxxx",
   },
   {
-    name: "Lorem Ipsum",
-    position: "Vice President",
+    name: "Hasan Mehdi",
+    position: "CS-20120",
     para: "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.",
     number: "0334xxxxxxx",
   },
   {
-    name: "Lorem Ipsum",
-    position: "Manager",
+    name: "Jahanzaib Khan",
+    position: "CS-20114",
     para: "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.",
     number: "0334xxxxxxx",
   },
