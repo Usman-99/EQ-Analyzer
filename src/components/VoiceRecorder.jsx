@@ -3,7 +3,7 @@ import { AudioRecorder } from "react-audio-voice-recorder";
 import AudioRecorderPolyfill from "audio-recorder-polyfill";
 import image from "../Images/back.png";
 import web from "../Images/Capture.PNG";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 // Adding MP3 support
 AudioRecorderPolyfill.mimeType = "audio/mpeg";
 window.MediaRecorder = AudioRecorderPolyfill;
@@ -47,14 +47,14 @@ const VoiceRecorder = () => {
       <section id="web">
         <div className="webimg">
           <p style={{ textAlign: "justify" }}>
-            <Link to="/">
+            <HashLink to="/#predict">
               <img
                 className="img-fluid"
                 title="Join And Avail Discount on your first purchase!!"
                 src={web}
                 alt="Join Our fitness hub now!!"
               />
-            </Link>
+            </HashLink>
           </p>
         </div>
         <div className="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
