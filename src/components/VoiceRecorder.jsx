@@ -47,7 +47,7 @@ const VoiceRecorder = () => {
       <section id="web">
         <div className="webimg">
           <p style={{ textAlign: "justify" }}>
-            <Link to="/VoiceRecorder">
+            <Link to="/">
               <img
                 className="img-fluid"
                 title="Join And Avail Discount on your first purchase!!"
