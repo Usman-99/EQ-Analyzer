@@ -50,7 +50,7 @@ const VoiceRecorder = () => {
             <HashLink to="/#predict">
               <img
                 className="img-fluid"
-                title="Join And Avail Discount on your first purchase!!"
+                title="Predict  Now!"
                 src={web}
                 alt="Join Our fitness hub now!!"
               />
@@ -58,25 +58,15 @@ const VoiceRecorder = () => {
           </p>
         </div>
         <div className="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
-          <div className="w3-quarter">
-            <span className="w3-xxlarge">14+</span>
-            <br />
-            Partners
-          </div>
-          <div className="w3-quarter">
+          <div className="w3-half">
             <span className="w3-xxlarge">55+</span>
             <br />
             Store Products
           </div>
-          <div className="w3-quarter">
+          <div className="w3-half">
             <span className="w3-xxlarge">89+</span>
             <br />
             Happy Clients
-          </div>
-          <div className="w3-quarter">
-            <span className="w3-xxlarge">150+</span>
-            <br />
-            Registered Customers
           </div>
         </div>
       </section>

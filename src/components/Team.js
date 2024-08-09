@@ -1,5 +1,4 @@
 import React from "react";
-import team from "../Images/team.jpg";
 import data from "./Teamdata";
 export default function Team() {
   return (
@@ -17,9 +16,9 @@ export default function Team() {
               <div className="w3-col l3 m6 w3-margin-bottom">
                 <div className="mx-2 border border-secondary w3-card rounded-lg">
                   <img
-                    src={team}
+                    src={member.src}
                     alt={member.name}
-                    style={{ width: "100%" }}
+                    style={{ width: "100%", height: "300px" }}
                     className="w3-hover-opacity px-1 rounded-lg"
                   />
                   <div className="w3-container w3-grayscale">

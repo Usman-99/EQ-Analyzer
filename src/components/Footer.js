@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { SiFacebook } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
+import { HashLink } from "react-router-hash-link";
 export default function Footer() {
   const navigate = useNavigate();
   return (
@@ -38,16 +39,14 @@ export default function Footer() {
         <b className="px-3">&copy;</b>
       </p>
       <br />
-      <button
-        className="btn btn-light border-info  btn-small  w3-margin-bottom"
-        style={{ border: "4px solid" }}
-        onClick={() => {
-          navigate("/VoiceRecorder");
-          window.scrollTo(0, 0);
-        }}
-      >
-        <b>Predict now</b>
-      </button>
+      <HashLink to="/#predict">
+        <button
+          className="btn btn-light border-info  btn-small  w3-margin-bottom"
+          style={{ border: "4px solid" }}
+        >
+          <b>Predict now</b>
+        </button>
+      </HashLink>
     </footer>
   );
 }
