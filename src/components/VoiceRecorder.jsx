@@ -59,14 +59,14 @@ const VoiceRecorder = () => {
         </div>
         <div className="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
           <div className="w3-half">
-            <span className="w3-xxlarge">55+</span>
+            <span className="w3-xxlarge">400+</span>
             <br />
-            Store Products
+            Videos Trained
           </div>
           <div className="w3-half">
-            <span className="w3-xxlarge">89+</span>
+            <span className="w3-xxlarge">85+</span>
             <br />
-            Happy Clients
+            Accuracy
           </div>
         </div>
       </section>
